@@ -559,8 +559,6 @@ body {
 	position: relative;
 	z-index: 10;
 }
-.main__box-4{
-    overflow:hidden}
 
 .main__circle_top-color-4 {
 	background:rgba(52, 0, 196, 0.7);
@@ -571,10 +569,11 @@ body {
 .services {
 	position: relative;
 	z-index: 2;
-	}
+	overflow: hidden;
+}
 
 .services__wrapper {
-	padding: 0px 0px 50px;
+	padding: 50px 0px;
 }
 
 .services__wrapper::after {
