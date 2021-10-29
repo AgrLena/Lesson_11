@@ -609,7 +609,7 @@ body {
 	margin-right: 24px;
 }
 
-.services__item::hover {
+.services__item:hover {
 	box-shadow: 0px 8px 16px rgba(38, 38, 38, 0.24), 0px 16px 24px rgba(38, 38, 38, 0.2);
 }
 
